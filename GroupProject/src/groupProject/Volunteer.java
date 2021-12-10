@@ -14,6 +14,9 @@ public class Volunteer extends User {
 	private int [] avaliability;
 	private String interests;
 	
+	public Volunteer () {
+		
+	}
 	
 
 }

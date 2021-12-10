@@ -21,6 +21,10 @@ public class Team {
 	private String volunteerPI;
 	private String teamID;
 	
+	public Team () {
+		
+	}
+	
 	public void createTeam() {
 		System.out.println("Team created");
 	}

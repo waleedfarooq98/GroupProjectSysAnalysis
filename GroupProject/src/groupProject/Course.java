@@ -17,6 +17,10 @@ public class Course {
 	private String teamID;
 	private float courseStatus;
 	
+	
+	public Course () {
+		
+	}
 	public void signUp() {
 		System.out.println("Team signed up to teach this course");
 	}

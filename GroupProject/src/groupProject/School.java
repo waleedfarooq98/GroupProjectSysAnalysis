@@ -18,6 +18,10 @@ public class School {
 	private String zipCode;
 	private boolean isActive;
 	
+	public School () {
+		
+	}
+	
 	public void createSchool() {
 		System.out.println("School was created");
 	}

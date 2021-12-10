@@ -27,5 +27,12 @@ public class User {
 	public void editUser() {
 		System.out.println("User was edited");
 	}
+	
+	public static void main(String[] args) {
+		User newUser = new User();
+		System.out.println("New User was created");
+		newUser.validateLogin();
+		
+	}
 }
 
